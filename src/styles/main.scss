@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout {
+  min-height: 100vh;
+
+  &__header {
+    background: #fff;
+    padding: 0 24px;
+  }
+
+  &__content {
+    margin: 16px;
+  }
+
+  &__footer {
+    text-align: center;
+  }
+}
